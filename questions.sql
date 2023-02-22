@@ -3,6 +3,7 @@
 -- 1. Write a SQL query to find the second highest salary without using limits from the
 -- table below. Also write a query to find the nth highest salary.
 -- ==========================================================================================
+-- CREATE DATABASE demo;
 -- create table employee_salary
 CREATE Table
     IF NOT EXISTS employee_salary(

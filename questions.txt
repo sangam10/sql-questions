@@ -1,0 +1,11 @@
+2. What is the difference between Unique key and Primary key?
+===============================================================
+
+i.  A primary key uniquely identifies each row in a table. 
+    It cannot be null 
+    On the other hand, a unique key is a column or a set of columns that also uniquely identifies each row in a table,
+    but it can contain null values.
+
+ii. Primary keys are used to identifies the row in a table and it is used as a foreign key for other table
+    to establish the relationships.
+    Unique keys are used to maintain data integrity means that no duplicate values are entered into a particular column or set of columns.
